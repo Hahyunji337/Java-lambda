@@ -8,7 +8,7 @@ import java.util.function.IntBinaryOperator;
 public class MethodReferanceExample {
 
     public static void main(String[] args) {
-        IntBinaryOperator operator;
+        IntBinaryOperator operator; //int값 두개를 받아서 int하나로 출력
         
         //예전에 참조한 방식
         // operator = (x,y) -> Calculator.saticMethod(x, y);
